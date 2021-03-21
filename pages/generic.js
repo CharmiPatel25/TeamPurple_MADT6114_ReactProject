@@ -18,3 +18,15 @@ class DynamicPage extends React.Component {
     const globals = mapGlobals(Response.objects);
     return { globals, page };
   }
+  constructor(props){
+    super(props);
+    this.state = {
+        header: props.globals.header,
+        contact_form: props.globals.contact_form,
+        nav: props.globals.nav,
+        social: props.globals.social,
+        contactInfo: props.globals.contact_info.metadata,
+        footer: props.globals.footer,
+        page: props.page
+    }
+  }
