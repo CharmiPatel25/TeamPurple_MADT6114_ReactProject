@@ -2,10 +2,10 @@
  A simple snake game created with the React JavaScript library and CodeSandbox
 
 # Team members
-  ## Anmariya Francis
-  ## Avani Patel
-  ## Charmi Patel
-  ## Jyothi Thomas
+  #### Anmariya Francis
+  #### Avani Patel
+  #### Charmi Patel
+  #### Jyothi Thomas
   
 # How to play
    You can move the snake with the arrow keys or W / A / S / D.
