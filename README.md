@@ -7,6 +7,9 @@
   #### Charmi Patel
   #### Jyothi Thomas
   
+# How to install into your React app
+ npm install TeamPurple_MADT6114_ReactProject 
+ 
 # How to play
    You can move the snake with the arrow keys or W / A / S / D.
 # Screenshots
