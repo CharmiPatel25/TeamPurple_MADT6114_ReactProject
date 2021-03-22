@@ -1,28 +1,60 @@
 {
   "name": "team-purple-react-project",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "@babel/runtime": "7.13.8",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-scripts": "4.0.0"
+  "description": "A simple snake game created with the React JavaScript library",
+  "version": "0.2.2",
+  "main": "lib/snake.js",
+  "files": [
+    "lib"
+  ],
+  "license": "",
+  "author": {
+    "name": "",
+    "email": ""
   },
-  "devDependencies": {
-    "typescript": "4.1.3"
+  "keywords": [
+    "react",
+    "snake",
+    "game",
+    "simple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avanipatel9/TeamPurple_MAD6114_ReactProject"
+  },
+  "homepage": "",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "webpack serve --config=demo/webpack.config.js",
+    "build:demo": "webpack --config=demo/webpack.config.js",
+    "build:lib": "webpack",
+    "predeploy": "npm run build:demo",
+    "deploy": "gh-pages -d demo/public",
+    "prepack": "npm run build:lib",
+    "lint": "eslint src/*.jsx --fix"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "gh-pages": "^3.1.0",
+    "prettier": "^2.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.5.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.2"
+  }
 }
