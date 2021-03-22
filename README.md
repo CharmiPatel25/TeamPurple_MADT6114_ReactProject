@@ -1,5 +1,5 @@
 # TeamPurple_MADT6114_ReactProject
-Created with CodeSandbox
+ A simple snake game created with the React JavaScript library and CodeSandbox
 
 # Team members
   Anmariya Francis
@@ -9,3 +9,7 @@ Created with CodeSandbox
   
 # How to play
    You can move the snake with the arrow keys or W / A / S / D.
+# Screenshots
+![image](https://user-images.githubusercontent.com/60163786/112019214-983a7f80-8b05-11eb-970b-ae642f260b7c.png)
+
+
