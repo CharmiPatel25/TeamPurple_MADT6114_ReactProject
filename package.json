@@ -3,23 +3,16 @@
   "description": "A simple snake game created with the React JavaScript library",
   "version": "0.2.2",
   "main": "lib/snake.js",
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "license": "",
   "author": {
     "name": "",
     "email": ""
   },
-  "keywords": [
-    "react",
-    "snake",
-    "game",
-    "simple"
-  ],
+  "keywords": ["react", "snake", "game", "simple"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/avanipatel9/TeamPurple_MAD6114_ReactProject"
+    "url": "https://github.com/CharmiPatel25/TeamPurple_MADT6114_ReactProject"
   },
   "homepage": "",
   "dependencies": {},
